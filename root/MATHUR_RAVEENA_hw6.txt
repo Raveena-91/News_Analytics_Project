@@ -1,0 +1,67 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28300\viewh15080\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+1. What did you set out to study? (i.e. what was the point of your project? This should be close to your HW3 assignment, but if you switched gears or changed things, note it here.) \
+\
+Ans. 1 The purpose of my project was to study the behaviour of online news.  I studied this behaviour with respect to keywords, location, sections, sources of news etc. To study this effectively and within the scope of my understanding and technical knowledge I developed these questions and tried to answer them through my code for different sources of news namely LA Times, New York Times and Google News:\
+\
+1. How top headlines were categorised into sections \
+2. Which sections had most top headlines?\
+3. What are the propernouns/keywords/trending topics in top headlines? \
+4. How much top headlines carried news of different countries for digital newspapers in US?\
+5. On google news (a news aggregator) which sources of news (online newspaper) contribute most and what is the distribution for all sources?\
+6. How headlines carry the word Trump across different news sources?\
+\
+I did not switch gears rather I expanded my area of study to include location and section while analysing online news.\
+\
+2. What did you discover/what were your conclusions (i.e. what were your findings? Were your original assumptions confirmed, etc.?)\
+\
+Ans.2 Though my study depends upon when you scrape the data, I ran my code for 3-4 days and found consistent conclusions as stated under. But these may vary for other days. These are \'93Everyday Analytics\'94. I discovered/found/concluded that over the past that:\
+1) For the past week, On LA Times, Nation and Business are the sections that carry most headlines followed by  Politics, Op-Ed and California. Apart from these sections other sections showed almost equal distribution\
+2) For the past week, On New York Times, A lot of top headlines are categorised under \'93US\'94 section followed by World, Opinion and Arts sections.\
+Apart from these sections other sections showed almost equal distribution.\
+3) Thus both LA Times and NY Times report news about \'93US\'94 the most on a daily basis.\
+4)Since Google news is an aggregator it is interesting to know which source has maximum news on google news\'92s top headlines. Past week, it turns out USA today has maximum news followed by ABC News, Bleacher report and The Washington Post. Though these values vary everyday, the distribution of news across various platforms is almost uniform for other than the mentioned above. \
+5) On NY Times Key words- United States Politics and Government has maximum news, followed by International Relations.\
+6) The proper noun of Trump was the most trending proper noun across all platforms. President Trump somehow gathers a lot of news in Top Headlines everyday. On a 6th May 2018 on New York times he was featured most, followed by LA Times and Google news! \
+\
+My original assumption was that: \
+1) Google news might be having a dominant news producer for top headlines \
+Confirmed: The news on google news had a source which had most news. But it changed over the week(or perhaps every day) and at different times of the day. \
+\
+2) News might have dominant sections and I wanted to find them\
+Confirmed: Usually section of news under the umbrella \'93US\'94 or \'93Nation\'94 had most news.\
+\
+3) Lot of headlines with Proper Noun \'93Trump\'94. \
+Confirmed: Trump was indeed featured in the news and give lot of space.\
+\
+\
+\
+3. What difficulties did you have in completing the project?\
+1. Querying the right Location API to get the location from the headline\
+2. finding the API that can extract proper nouns from the headline\
+3. Modelling the database to not include any duplicate values\
+4. Modelling foreign key relationships\
+5. Querying the database effectively.\
+\
+4. What skills did you wish you had while you were doing the project?\
+Ans. I wish I knew how to draw a map in matplotlib and highlight the regions of interest\
+2. I wish I knew how to get news headlines for countries other than US.\
+3. I wish I could summarise the news abstract and generate features from it.\
+4. I wish I could access more headlines apart from top headlines\
+\
+5. What would you do \'93next\'94 to expand or augment the project? \
+Ans. I would record the values for everyday for each of the analysis question to build a prediction engine that can predict the section of news from its title,and location of news from its title.\
+I would study machine learning techniques to build such an engine and would contact journalists to quantify values from headlines for section and location.\
+\
+\
+\
+\
+\
+\
+}
